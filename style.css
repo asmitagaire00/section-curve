@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.curve {
+  position: relative;
+}
+
+.nav-content {
+  position: absolute;
+  right: 10px;
+  padding-top: 30px;
+  padding-right: 30px;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 10px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+  text-decoration-color: rgb(194, 9, 9);
+  text-decoration-thickness: 3px;
+  text-underline-position: under;
+}
